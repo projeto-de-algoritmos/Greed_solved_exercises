@@ -48,3 +48,15 @@ var isMatch = function(s, p) {
 
   return matrixAux[s.length][p.length]
 };
+
+const sExample1 = "aa";
+const nExample1 = "a";
+const expectedOutput1 = false;
+
+console.log(`Exemplo 1: \n\tEntrada: s = [${sExample1}], p = [${nExample1}] \n\tSaída esperada: ${expectedOutput1} \n\tResultado obtido: ${isMatch(sExample1)} \n`);
+
+const sExample2 = "aa";
+const nExample2 = "*";
+const expectedOutput2 = true;
+
+console.log(`Exemplo 2: \n\tEntrada: s = [${sExample2}], p = [${nExample2}] \n\tSaída esperada: ${expectedOutput2} \n\tResultado obtido: ${isMatch(sExample2)} \n`);
