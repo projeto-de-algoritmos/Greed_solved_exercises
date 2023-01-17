@@ -23,3 +23,13 @@ var minPatches = function(nums, n) {
 
     return add
 };
+
+const numsExample1 = [1, 5, 10], nExample1 = 20
+const expectedOutput1 = 2
+
+console.log("Entrada: nums = [" + numsExample1 + "], n = " + nExample1 + "\nSaída esperada: " + expectedOutput1 + "\nResultado obtido: " + minPatches(numsExample1, nExample1) + "\n");
+
+const numsExample2 = [1, 2, 2], nExample2 = 5
+const expectedOutput2 = 0
+
+console.log("Entrada: nums = [" + numsExample2 + "], n = " + nExample2 + "\nSaída esperada: " + expectedOutput2 + "\nResultado obtido: " + minPatches(numsExample2, nExample2) + "\n");
