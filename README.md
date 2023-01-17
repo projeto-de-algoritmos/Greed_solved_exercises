@@ -36,7 +36,4 @@ Necessário possuir Node para execução das soluções.
 
 
 ## Apresentação
-
-
-
-
+[O vídeo pode ser encontrado aqui.](/assets/presentation.mp4)
